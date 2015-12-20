@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.fragments;
+package com.fusionjack.krexusota.fragments;
 
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,18 +25,18 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
 
-import com.fusionjack.slimota.R;
-import com.fusionjack.slimota.configs.AppConfig;
-import com.fusionjack.slimota.configs.LinkConfig;
-import com.fusionjack.slimota.configs.OTAVersion;
-import com.fusionjack.slimota.dialogs.WaitDialogFragment;
-import com.fusionjack.slimota.tasks.CheckUpdateTask;
-import com.fusionjack.slimota.utils.OTAUtils;
-import com.fusionjack.slimota.xml.OTALink;
+import com.fusionjack.krexusota.R;
+import com.fusionjack.krexusota.configs.AppConfig;
+import com.fusionjack.krexusota.configs.LinkConfig;
+import com.fusionjack.krexusota.configs.OTAVersion;
+import com.fusionjack.krexusota.dialogs.WaitDialogFragment;
+import com.fusionjack.krexusota.tasks.CheckUpdateTask;
+import com.fusionjack.krexusota.utils.OTAUtils;
+import com.fusionjack.krexusota.xml.OTALink;
 
 import java.util.List;
 
-public class SlimOTAFragment extends PreferenceFragment implements
+public class KrexusOTAFragment extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener,
         SharedPreferences.OnSharedPreferenceChangeListener ,
         WaitDialogFragment.OTADialogListener,

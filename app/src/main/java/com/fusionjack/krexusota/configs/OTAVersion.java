@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.configs;
+package com.fusionjack.krexusota.configs;
 
 import android.content.Context;
 
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.fusionjack.krexusota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
