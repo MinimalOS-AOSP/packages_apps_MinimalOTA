@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fusionjack.krexusota"
     android:versionCode="5"
-    android:versionName="krexus_1.0">
+    android:versionName="1.0kr">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -26,10 +26,6 @@
                 APK needs to be in priv-app for this to work!
                 -->
                 <action android:name="android.settings.SYSTEM_UPDATE_SETTINGS" />
-                <!--
-                <action android:name="android.intent.action.MAIN" />
-				-->
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <service android:name=".scheduler.OTAService" />
