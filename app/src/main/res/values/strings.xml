@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">KrexusOTA</string>
-    <string name="app_title">KrexusOTA</string>
+    <string name="app_name">Krexus OTA Updates</string>
+    <string name="app_title">System updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>
