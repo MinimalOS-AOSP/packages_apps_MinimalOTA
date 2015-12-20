@@ -6,6 +6,7 @@ ifneq ($(ANDROID_BUILD_TOP),)
 endif
 
 LOCAL_MODULE_TAGS := optional
+LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PACKAGE_NAME := KrexusOTA
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
