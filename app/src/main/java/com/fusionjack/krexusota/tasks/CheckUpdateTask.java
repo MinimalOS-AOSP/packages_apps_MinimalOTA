@@ -155,7 +155,6 @@ public class CheckUpdateTask extends AsyncTask<Context, Void, OTADevice> {
         builder.setContentTitle(context.getString(R.string.notification_title));
         builder.setContentText(context.getString(R.string.notification_message));
         builder.setSmallIcon(R.drawable.ic_notification_krexusota);
-        builder.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.ic_krexusota));
 
         Intent intent = new Intent(context, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
