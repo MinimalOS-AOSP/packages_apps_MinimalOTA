@@ -1,13 +1,13 @@
 #
 # OTA XML
 #
-# See ota_lollipop.xml for example
+# See ota_marshmallow.xml for example
 #
 # Note:
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically 
 #
-ota_url=https://www.dropbox.com/s/u2k60hvjn2c02h0/ota_lollipop.xml?dl=1
+ota_url=https://dl.dropboxusercontent.com/u/12469927/krexus_ota.xml?dl=1
 release_type=Stable
 device_name=ro.product.device
 
@@ -32,7 +32,7 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
-version_delimiter=-
-version_position=3
-version_format=yyyyMMdd
+version_source=ro.krexus.version
+version_delimiter= -
+version_position=1
+version_format=yyMMdd

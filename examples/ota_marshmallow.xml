@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KrexusOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+  <Stable>
+    <angler>
+      <Filename>going good</Filename>
+      <RomUrl id="rom" title="ROM" description="Download the update">https://basketbuild.com/devs/KreAch3R/Krexus/angler</RomUrl>
+      <ChangelogUrl id="changelog" title="Changelog" description="Check the latest changelog">http://krexus.github.io/#changelog</ChangelogUrl>
+      <GappsUrl id="gapps" title="Gapps" description="Download Open-GApps">http://opengapps.org/</GappsUrl>
+    </angler>
+  </Stable>
+<KrexusOTA>
